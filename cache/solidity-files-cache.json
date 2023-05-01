@@ -1,0 +1,707 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\thangstudyJvs\\wordshop_01\\contracts\\Floppy.sol": {
+      "lastModificationDate": 1682754459901,
+      "contentHash": "5e8a8f10654590d55943fb5bec64694e",
+      "sourceName": "contracts/Floppy.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "openzeppelin-solidity/contracts/access/Ownable.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "<=0.8.19"
+      ],
+      "artifacts": [
+        "Floppy"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1682163620829,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1682178916564,
+      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
+      "sourceName": "openzeppelin-solidity/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1682178916073,
+      "contentHash": "a9d2146925da52142435d3bb8df53c3c",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\extensions\\ERC20Burnable.sol": {
+      "lastModificationDate": 1682178916082,
+      "contentHash": "a1c7f80ae26f5b2d7d563475627fbf25",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol",
+        "../../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1682178915906,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1682178916354,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1682178916360,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\access\\AccessControl.sol": {
+      "lastModificationDate": 1682178915860,
+      "contentHash": "08101487003fda67e21e6d2cfe35bb2e",
+      "sourceName": "openzeppelin-solidity/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControl.sol",
+        "../utils/Context.sol",
+        "../utils/Strings.sol",
+        "../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1682178916612,
+      "contentHash": "9c54c6c065d9e590fdcdd72c451425b9",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1682178916039,
+      "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
+      "sourceName": "openzeppelin-solidity/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\access\\IAccessControl.sol": {
+      "lastModificationDate": 1682178916236,
+      "contentHash": "57c84298234411cea19c7c284d86be8b",
+      "sourceName": "openzeppelin-solidity/contracts/access/IAccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAccessControl"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1682178916333,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "openzeppelin-solidity/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\access\\IAccessControlEnumerable.sol": {
+      "lastModificationDate": 1682178916238,
+      "contentHash": "4e71cc90682e109e999ce2bd329f6572",
+      "sourceName": "openzeppelin-solidity/contracts/access/IAccessControlEnumerable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControl.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAccessControlEnumerable"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\access\\AccessControlEnumerable.sol": {
+      "lastModificationDate": 1682178915868,
+      "contentHash": "b6d9b165dc57e9ad8153bdca05c783a4",
+      "sourceName": "openzeppelin-solidity/contracts/access/AccessControlEnumerable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControlEnumerable.sol",
+        "./AccessControl.sol",
+        "../utils/structs/EnumerableSet.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControlEnumerable"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\utils\\structs\\EnumerableSet.sol": {
+      "lastModificationDate": 1682178916003,
+      "contentHash": "ee7890ed6993382898aeeed014cffab8",
+      "sourceName": "openzeppelin-solidity/contracts/utils/structs/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\contracts\\Vault.sol": {
+      "lastModificationDate": 1682841776111,
+      "contentHash": "5b9ce83bc784391da9646fbe819e1a2a",
+      "sourceName": "contracts/Vault.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/utils/SafeERC20.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
+        "openzeppelin-solidity/contracts/access/Ownable.sol",
+        "openzeppelin-solidity/contracts/access/AccessControlEnumerable.sol"
+      ],
+      "versionPragmas": [
+        "<=0.8.19"
+      ],
+      "artifacts": [
+        "Vault"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1682178916598,
+      "contentHash": "76814c83c32552ed2b521c816b4d801a",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "D:\\thangstudyJvs\\wordshop_01\\node_modules\\openzeppelin-solidity\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1682178915872,
+      "contentHash": "ad714a6368ee7d43cded6bbe8af0b155",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    }
+  }
+}
